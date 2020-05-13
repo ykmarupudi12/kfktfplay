@@ -4,8 +4,8 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "kafka_terraform_dev-tfstate-1212"
+    bucket = "kafkaterraformdevtf1212"
     key    = "terraform.tfstate"
-    region = "us-east-1"
+    region = "ap-southeast-2"
   }
 }
