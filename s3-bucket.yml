@@ -5,3 +5,4 @@
       s3_bucket:
         name: kafkaterraformdevtf1212
         state: present
+        region: ap-southeast-2
